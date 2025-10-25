@@ -1,0 +1,17 @@
+.footer {
+  background: #8d6e63; /* Earthy brown for grounding */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 0.5rem;
+  }
+}

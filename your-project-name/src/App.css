@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif; /* Traditional serif for Vastu authenticity */
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9; /* Soft, neutral background for balance */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif; /* Modern sans-serif for headings */
+  color: #2e7d32; /* Earthy green for harmony */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #1976d2; /* Blue for stability */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #4caf50; /* Green for growth */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

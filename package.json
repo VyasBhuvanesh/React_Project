@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@mailchain/sdk": "^0.31.0"
+  },
+  "scripts": {
+    "start": "npm start --prefix your-project-name"
+  }
+}

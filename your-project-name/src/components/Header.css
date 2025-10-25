@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* background: linear-gradient(to right, #e8f5e8, #c8e6c9); Subtle green gradient for balance */
+  background:linear-gradient(to right, #0d47a1, #1976d2);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2e7d32;
+ height: auto;
+ width: auto;
+}
+
+.logo img {
+  height: 6rem;
+  width: 6rem;
+ border-radius: 50%;
+ background-color:#2e7d32;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0e0c0c;
+  font-weight:900;
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth flow */
+}
+
+nav a:hover {
+  color: #1976d2;
+  transform: translateY(-2px); /* Subtle lift for energy */
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  nav {
+    margin-top: 1rem;
+  }
+  nav a {
+    margin: 0 0.5rem;
+  }
+}
